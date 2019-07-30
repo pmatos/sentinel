@@ -1,0 +1,19 @@
+#lang sentinel
+
+plan test-racket-cgc:
+     build:cgc -> test:db-all-tests
+                & test:file-main
+		& test:json-json
+		& test:match-main
+		& test:net-encoder
+		& test:net-head
+		& test:net-uri
+		& test:net-url-port
+		& test:net-url
+		& test:openssl
+		& test:racket-contract
+		& test:racket-test
+		& test:stxparse
+		& test:xml-test
+		& test:zo-path
+
